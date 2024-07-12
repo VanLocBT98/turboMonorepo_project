@@ -1,0 +1,23 @@
+import { Meta, StoryObj } from '@storybook/react';
+
+import {{pascalCase name}}, { I{{pascalCase name}}Props } from '.';
+
+interface StoryProps extends I{{pascalCase name}}Props {
+  children?: React.ReactNode;
+}
+const meta = {
+  title: 'Components/{{pascalCase name}}',
+  component: {{pascalCase name}},
+  tags: ['autodocs'],
+  argTypes: {}
+} as Meta;
+
+export default meta;
+
+type Story = StoryObj<typeof meta>;
+
+export const Normal: Story = ({children}: StoryProps) => (
+  <{{pascalCase name}}>{children}</{{pascalCase name}}>
+);
+
+Normal.args = {}

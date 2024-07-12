@@ -1,0 +1,26 @@
+{
+  "name": "@styles/ui-mui",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "storybook": "storybook dev -p 8008",
+    "storybook:build": "storybook build --quiet -o storybook-static",
+    "storybook:move": "mv storybook-static ../../../storybook-static/ui-mui",
+    "clean:build": "rm -rf dist/ .turbo/ storybook-static/ node_modules/"
+  },
+  "dependencies": {
+    "@configs/mui": "*",
+    "@utils/mui": "*",
+    "@configs/tsconfig": "*",
+    "@utils/hooks": "*",
+    "@utils/helpers": "*"
+  }
+}

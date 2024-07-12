@@ -1,0 +1,16 @@
+{
+  "extends": "@configs/tsconfig/tsconfig.base.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "baseUrl": "src",
+    "paths": {
+      ".": ["."]
+    }
+  },
+  "include": [
+    "src/**/*",
+    "../../configs/mui/mui-theme.d.ts",
+    "../../../core/providers/*"
+  ],
+  "exclude": ["src/**/*.test.ts", "src/**/*.test.tsx", "src/**/*.stories.tsx"]
+}

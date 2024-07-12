@@ -1,0 +1,14 @@
+{
+  "name": "@configs/eslint",
+  "version": "1.0.0",
+  "private": true,
+  "files": [
+    "library.js",
+    "next.js",
+    "react-internal.js",
+    "storybook.js"
+  ],
+  "scripts": {
+    "clean:build": "rm -rf .turbo/ node_modules/"
+  }
+}
