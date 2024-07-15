@@ -1,8 +1,8 @@
 import { Meta, StoryObj } from "@storybook/react";
 
-import Bg, { IBgProps } from ".";
+import Bg from ".";
 
-interface StoryProps extends IBgProps {
+interface StoryProps {
   children?: React.ReactNode;
 }
 const meta = {
@@ -16,6 +16,6 @@ export default meta;
 
 type Story = StoryObj<typeof meta>;
 
-export const Normal: Story = ({ children }: StoryProps) => <Bg>{children}</Bg>;
+export const Normal: Story = ({ children }: StoryProps) => <Bg />;
 
 Normal.args = {};

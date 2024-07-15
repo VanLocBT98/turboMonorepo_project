@@ -17,7 +17,7 @@ export default meta;
 type Story = StoryObj<typeof meta>;
 
 export const Normal: Story = ({ children }: StoryProps) => (
-  <SectionInfo>{children}</SectionInfo>
+  <SectionInfo name={""} role={[]} />
 );
 
 Normal.args = {};

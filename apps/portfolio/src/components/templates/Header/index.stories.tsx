@@ -1,8 +1,8 @@
 import { Meta, StoryObj } from "@storybook/react";
 
-import Header, { IHeaderProps } from ".";
+import Header from ".";
 
-interface StoryProps extends IHeaderProps {
+interface StoryProps {
   children?: React.ReactNode;
 }
 const meta = {
@@ -17,7 +17,7 @@ export default meta;
 type Story = StoryObj<typeof meta>;
 
 export const Normal: Story = ({ children }: StoryProps) => (
-  <Header>{children}</Header>
+  <Header nav={[]}></Header>
 );
 
 Normal.args = {};

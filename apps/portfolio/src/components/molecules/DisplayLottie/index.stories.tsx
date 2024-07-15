@@ -16,8 +16,6 @@ export default meta;
 
 type Story = StoryObj<typeof meta>;
 
-export const Normal: Story = ({ children }: StoryProps) => (
-  <DisplayLottie>{children}</DisplayLottie>
-);
+export const Normal: Story = ({ children }: StoryProps) => <DisplayLottie />;
 
 Normal.args = {};

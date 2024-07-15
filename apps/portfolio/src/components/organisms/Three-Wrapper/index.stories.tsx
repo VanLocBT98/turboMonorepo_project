@@ -17,7 +17,7 @@ export default meta;
 type Story = StoryObj<typeof meta>;
 
 export const Normal: Story = ({ children }: StoryProps) => (
-  <ThreeWrapper>{children}</ThreeWrapper>
+  <ThreeWrapper canvas={undefined} />
 );
 
 Normal.args = {};

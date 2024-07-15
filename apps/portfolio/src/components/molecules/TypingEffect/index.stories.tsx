@@ -16,8 +16,6 @@ export default meta;
 
 type Story = StoryObj<typeof meta>;
 
-export const Normal: Story = ({ children }: StoryProps) => (
-  <TypingEffect>{children}</TypingEffect>
-);
+export const Normal: Story = ({ children }: StoryProps) => <TypingEffect />;
 
 Normal.args = {};

@@ -1,8 +1,8 @@
 import { Meta, StoryObj } from "@storybook/react";
 
-import Wrapper, { IWrapperProps } from ".";
+import Wrapper from ".";
 
-interface StoryProps extends IWrapperProps {
+interface StoryProps {
   children?: React.ReactNode;
 }
 const meta = {
