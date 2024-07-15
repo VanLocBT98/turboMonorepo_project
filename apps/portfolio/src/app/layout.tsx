@@ -1,6 +1,8 @@
 // import Wrapper from "@/components/templates/wrapper";
 
+import Wrapper from "@/components/templates/Wrapper";
 import type { Metadata } from "next";
+import RootProvider from "./provider";
 
 export const metadata: Metadata = {
   title: "Portfolio",
@@ -24,8 +26,9 @@ export default function RootLayout({
     <html lang="en">
       <head />
       <body className="noScroll">
-        {children}
-        {/* <RootProvider><Wrapper>{children}</Wrapper></RootProvider> */}
+        <RootProvider>
+          <Wrapper>{children}</Wrapper>
+        </RootProvider>
       </body>
     </html>
   );
