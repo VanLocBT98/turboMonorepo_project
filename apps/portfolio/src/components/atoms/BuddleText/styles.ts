@@ -7,8 +7,8 @@ export const BubbleTextItem = styled(
   {},
 )(({ theme }) => ({
   fontWeight: 300,
-  fontSize: "68px",
-  lineHeight: "70px",
+  fontSize: "46px",
+  lineHeight: "54px",
   minWidth: "8px",
   transition: "0.35s font-weight, 0.35s color",
   cursor: "pointer",

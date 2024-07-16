@@ -29,4 +29,5 @@ export const WrapperBgThreeJS = styled(
   width: "100%",
   height: "100vh",
   zIndex: -1,
+  backgroundImage: `linear-gradient(to right, #fc5c7d, #6a82fb)`,
 }));

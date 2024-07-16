@@ -8,27 +8,27 @@ import {
 
 export const InfoMocks = {
   color: "rgb(165, 180, 252)",
-  name: "Matthew Nguyen",
-  role: "Frontend Developer",
+  name: "Van Loc",
+  role: ["Frontend Developer", "Software Engineer"],
   summary: [
-    "With over 3 years of experiences as a Frontend Developer, I specialize in creating dynamic and responsive web applications using Angular, ReactJS, and NextJS. My expertise includes developing robust user interfaces, implementing state management, and ensuring seamless performance across various devices. I am proficient in HTML, CSS, JavaScript, and have a strong background in TypeScript and modern Frontend libraries such as Redux and RxJS. I have a proven track record of delivering high-quality, maintainable code, collaborating effectively with cross-functional teams, and continuously learning and adapting to new technologies.",
+    "With nearly 3 years of experience as a Front-End Developer, I specialize in creating dynamic and responsive web applications using React and Next.js. My expertise includes developing robust user interfaces, implementing state management, and ensuring seamless performance across various devices. I am proficient in HTML, CSS, and JavaScript, and have a strong background in TypeScript and modern front-end libraries such as Redux. I have a proven track record of delivering high-quality, maintainable code, collaborating effectively with cross-functional teams, and continuously learning and adapting to new technologies.",
   ],
   resume:
-    "https://drive.google.com/file/d/1rXEa4Uwye0iTvup6qkqUTDUJkf1tTeBH/view?usp=sharing",
+    "https://drive.google.com/file/d/1Tn7WbJkUsb1MbdzHX83Nn3d1WtR2-64E/view?usp=sharing",
   socials: [
     {
       name: "linkedin",
-      link: "https://www.linkedin.com/in/nguyencaoanhminh",
+      link: "https://www.linkedin.com/in/nguyen-van-loc-a063a1240/",
       icon: <SocialLinkedinOutIcon fontSize="large" linearColor="white" />,
     },
     {
       name: "github",
-      link: "https://github.com/annminn104",
+      link: "https://github.com/VanLocBT98",
       icon: <SocialGithubOutIcon fontSize="large" linearColor="white" />,
     },
     {
       name: "facebook",
-      link: "https://www.facebook.com/Minhmin0507",
+      link: "https://www.facebook.com/dag.phan.1",
       icon: <SocialFacebookOutIcon fontSize="large" linearColor="white" />,
     },
   ],
