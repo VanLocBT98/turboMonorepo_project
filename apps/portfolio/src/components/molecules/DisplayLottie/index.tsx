@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import Lottie from "react-lottie";
+import * as S from "./styles";
 
 export interface IDisplayLottieProps {
   animationPath?: string;
@@ -13,9 +14,9 @@ const DisplayLottie: React.FC<IDisplayLottieProps> = ({ animationPath }) => {
     path: animationPath,
   };
   return (
-    <div onClick={() => null}>
+    <S.DisplayLottie onClick={() => null}>
       <Lottie options={defaultOptions} />
-    </div>
+    </S.DisplayLottie>
   );
 };
 

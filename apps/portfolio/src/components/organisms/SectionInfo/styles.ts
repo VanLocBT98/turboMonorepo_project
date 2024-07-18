@@ -25,14 +25,14 @@ export const InfoName = styled(
   "h1",
   {},
 )(({ theme }) => ({
-  fontSize: "36px",
+  fontSize: "40px",
   margin: 0,
-  lineHeight: "54px",
+  lineHeight: "60px",
   color: "rgb(199, 210, 254)",
   "@media screen and (max-width: 768px)": {
     textAlign: "center",
-    fontSize: "24px",
-    lineHeight: "36px",
+    fontSize: "36px",
+    lineHeight: "54px",
   },
 }));
 
