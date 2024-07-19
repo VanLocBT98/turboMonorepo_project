@@ -1,7 +1,7 @@
-import { PointMaterial, Points } from "@react-three/drei";
+import { Points as DreiPoints, PointMaterial } from "@react-three/drei";
 import { useFrame } from "@react-three/fiber";
 import * as random from "maath/random/dist/maath-random.esm";
-import { Suspense, useRef, useState } from "react";
+import { Suspense, useMemo, useRef } from "react";
 import { Points as ThreePoints } from "three";
 
 type BgStarProps = {};
@@ -9,11 +9,12 @@ type BgStarProps = {};
 const Bg: React.FC<BgStarProps> = (props: any) => {
   const ref = useRef<ThreePoints | null>(null);
 
-  const [sphere] = useState(() =>
-    random.inSphere(new Float32Array(5001), { radius: 1.5 }),
+  const sphere = useMemo(
+    () => random.inSphere(new Float32Array(5001), { radius: 1.5 }),
+    [],
   );
 
-  const [colors] = useState(() => {
+  const colors = useMemo(() => {
     const colors = new Float32Array(5001 * 3);
     for (let i = 0; i < 5001; i++) {
       colors[i * 3] = Math.random(); // Red component
@@ -21,7 +22,7 @@ const Bg: React.FC<BgStarProps> = (props: any) => {
       colors[i * 3 + 2] = Math.random(); // Blue component
     }
     return colors;
-  });
+  }, []);
 
   useFrame((state, delta) => {
     if (ref.current) {
@@ -33,7 +34,7 @@ const Bg: React.FC<BgStarProps> = (props: any) => {
   return (
     <Suspense fallback={null}>
       <group rotation={[0, 0, Math.PI / 4]}>
-        <Points
+        <DreiPoints
           ref={ref}
           positions={sphere}
           colors={colors}
@@ -62,7 +63,7 @@ const Bg: React.FC<BgStarProps> = (props: any) => {
             sizeAttenuation={true}
             depthWrite={false}
           />
-        </Points>
+        </DreiPoints>
       </group>
     </Suspense>
   );
