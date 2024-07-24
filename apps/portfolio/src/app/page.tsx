@@ -1,7 +1,10 @@
 import { HeaderSectionEnum } from "@/common/enums";
 import { InfoMocks } from "@/common/mocks";
 import SectionSummary from "@/components/organisms/Section-Summary";
+import SectionContact from "@/components/organisms/SectionContact";
+import SectionExperience from "@/components/organisms/SectionExperience";
 import SectionInfo from "@/components/organisms/SectionInfo";
+import SectionProject from "@/components/organisms/SectionProject";
 import SectionSkills from "@/components/organisms/SectionSkills";
 import SectionUI from "@/components/templates/section";
 import { Container } from "@mui/material";
@@ -24,6 +27,23 @@ export default function Home() {
       key: "skills",
       id: HeaderSectionEnum.Skills,
       component: <SectionSkills {...pick(InfoMocks, "techStacks")} />,
+    },
+    {
+      key: "experiences",
+      id: HeaderSectionEnum.Experiences,
+      component: <SectionExperience {...pick(InfoMocks, "experiences")} />,
+    },
+    {
+      key: "projects",
+      id: HeaderSectionEnum.Projects,
+      component: (
+        <SectionProject {...pick(InfoMocks, "projects", "moreLink")} />
+      ),
+    },
+    {
+      key: "contact",
+      id: HeaderSectionEnum.Contact,
+      component: <SectionContact {...pick(InfoMocks, "contact")} />,
     },
   ];
   return (

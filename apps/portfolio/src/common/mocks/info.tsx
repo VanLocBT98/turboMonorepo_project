@@ -80,7 +80,6 @@ export const InfoMocks = {
       keys: [
         "Git",
         "Nodejs",
-        "ExpressJS",
         "NestJS",
         "SEO",
         "Docker",
@@ -98,8 +97,8 @@ export const InfoMocks = {
     {
       company: ["Sanbul Solutions"],
       position: ["Frontend Developer"],
-      startDate: "15/04/2023",
-      endDate: "Present",
+      startDate: "06/03/2023",
+      endDate: "30/06/2024",
       responsibilities: [
         "Create and assign tasks using Jira.",
         "Develop the source code structure following Atomic-Design principles.",
@@ -127,12 +126,19 @@ export const InfoMocks = {
       ],
     },
     {
-      company: ["Amit Group JSC", "TotallyAwesome"],
+      company: ["Nova E-Force (3Forcom)"],
       position: ["Frontend Developer"],
-      startDate: "06/2021",
-      endDate: "04/2023",
+      startDate: "2022",
+      endDate: "28/02/2023",
       responsibilities: [
-        "Develop and program the web interface (Micro-site).",
+        "Create and assign tasks using Jira.",
+        "Develop the source code structure following Atomic-Design principles.",
+        "Establish a process for code pushing and committing using Husky, Commit-lint, and GitHub Actions.",
+        "Implement the website interface based on design specifications, from management pages to user pages, utilizing Turbo (Vercel) for monorepos.",
+        "Configure Socket connections with the Backend and develop Service Workers.",
+        "Configure Storybook for documenting components and write comprehensive README files.",
+        "Create Dockerfile and Nginx configurations, and deploy the website.",
+        "Maintain the company's old projects",
         "Implement motion effects and animations.",
         "Trigger event send Google Analytics.",
         "Deploy the application with PM2 or Docker.",
@@ -142,11 +148,11 @@ export const InfoMocks = {
       techStacks: [
         {
           title: "Programming languages:",
-          keys: "Angular 12/13, NextJS 10/12, HTML, SCSS, Javascript, Typescript.",
+          keys: "React TS, NextJS 10/12, HTML, SCSS, Javascript, Typescript.",
         },
         {
           title: "UI libraries:",
-          keys: "Ant Design, NgZorro, Angular Material, ChartJS, Bootstrap 5, Animate.css, Owl Carousel, GSAP, React MUI, AOS(Animate On Scroll), tsParticles ",
+          keys: "Ant Design, ChartJS, Bootstrap 5, Animate.css, Owl Carousel, GSAP, React MUI, AOS(Animate On Scroll), tsParticles ",
         },
       ],
     },
@@ -158,21 +164,31 @@ export const InfoMocks = {
       desc: "This repository is configured as a monorepos utilizing Vercel's Turbo Repos. It includes multiple frameworks and libraries such as React, Next.js, Astro, Gatsby and Remix. The monorepo structure allows for efficient code sharing, consistent development practices, and streamlined CI/CD processes.",
     },
     {
+      title: "Monorepos",
+      link: "https://github.com/annminn104/muithew-monorepos",
+      desc: "This repository is configured as a monorepos utilizing Vercel's Turbo Repos. It includes multiple frameworks and libraries such as React, Next.js, Astro, Gatsby and Remix. The monorepo structure allows for efficient code sharing, consistent development practices, and streamlined CI/CD processes.",
+    },
+    {
+      title: "Monorepos",
+      link: "https://github.com/annminn104/muithew-monorepos",
+      desc: "This repository is configured as a monorepos utilizing Vercel's Turbo Repos. It includes multiple frameworks and libraries such as React, Next.js, Astro, Gatsby and Remix. The monorepo structure allows for efficient code sharing, consistent development practices, and streamlined CI/CD processes.",
+    },
+    {
       title: "Angular-boilerplate",
       link: "https://github.com/annminn104/Angular-Template",
       desc: "This is a comprehensive Angular application which is designed to be scalable, maintainable and robust. The application follows a clear directory structure along with a set of predefined scripts for build, development, testing and formatting. This application has been enhanced with a range of libraries such as Husky, Commitlint, AutoChangelog, Bootstrap, and Ng-Bootstrap.",
     },
   ],
-  moreLink: "https://github.com/annminn104",
+  moreLink: "",
   contact: [
     {
       icon: <LetterOpenedIcon fontSize="large" />,
-      link: "annminn100@gmail.com",
+      link: "vanlocforwork.nv@gmail.com",
       key: "mailto:",
     },
     {
       icon: <PhoneCallingIcon fontSize="large" />,
-      link: "(+84)374742756",
+      link: "(+84)829574920",
       key: "tel:",
     },
   ],
