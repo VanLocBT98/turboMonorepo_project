@@ -35,7 +35,7 @@ export const CardGithubDesc = styled(
   {},
 )(({ theme }) => ({
   display: "-webkit-box",
-  WebkitLineClamp: "3",
+  WebkitLineClamp: "4",
   WebkitBoxOrient: "vertical",
   overflow: "hidden",
 }));

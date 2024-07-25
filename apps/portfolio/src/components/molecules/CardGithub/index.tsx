@@ -5,11 +5,12 @@ import * as S from "./styles";
 export interface ICardGithubProps {
   title: string;
   desc: string;
+  link?: string;
 }
 
-const CardGithub: React.FC<ICardGithubProps> = ({ title, desc }) => {
+const CardGithub: React.FC<ICardGithubProps> = ({ title, desc, link }) => {
   return (
-    <S.CardGithubWrap>
+    <S.CardGithubWrap onClick={() => window.open(link, "_blank")}>
       <S.CardGithubTitle>{title}</S.CardGithubTitle>
       <S.CardGithubDesc>{desc}</S.CardGithubDesc>
       <S.CardGithubIcon />

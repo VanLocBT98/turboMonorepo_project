@@ -5,15 +5,13 @@ import type { Metadata } from "next";
 import RootProvider from "./provider";
 
 export const metadata: Metadata = {
-  title: "Portfolio",
+  title: "Leo Portfolio",
   description: "Leo Portfolio • Frontend Developer",
   openGraph: {
     title: "Leo Portfolio",
     description: "Leo Portfolio • Frontend Developer",
     type: "website",
-    images: [
-      "https://raw.githubusercontent.com/annminn104/muithew-monorepos/master/apps/portfolio/public/thumbnail.png",
-    ],
+    images: [""],
   },
 };
 
