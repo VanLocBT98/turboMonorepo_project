@@ -179,7 +179,7 @@ export const InfoMocks = {
       desc: "Develop features and integrate APIs according to requirements from start to finish of the project. Fix bugs as they arise and support team members in their work. Collaborate with design, QA, BA, and backend teams to ensure progress according to schedule.Use ReactTS, Bootstrap, Redux, React Query,axios, i18next, etc.",
     },
   ],
-  moreLink: "",
+  moreLink: "https://github.com/VanLocBT98",
   contact: [
     {
       icon: <LetterOpenedIcon fontSize="large" />,
