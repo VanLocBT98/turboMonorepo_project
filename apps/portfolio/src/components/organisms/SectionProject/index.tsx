@@ -22,7 +22,7 @@ const SectionProject: React.FC<ISectionProjectProps> = ({
       </S.SecProTitle>
       <Grid container spacing={3}>
         {projects.map((pro) => (
-          <Grid item xs={6} key={pro.title}>
+          <Grid item xxs={12} md={6} key={pro.title}>
             <MouseBlob borderWidth={4} radius={16}>
               <CardGithub {...pro} />
             </MouseBlob>
