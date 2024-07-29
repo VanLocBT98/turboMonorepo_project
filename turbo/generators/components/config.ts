@@ -7,7 +7,7 @@ export const componentConfig: PlopGeneratorConfig = {
       type: "list",
       name: "project",
       message: "Select the project",
-      choices: ["portfolio", "otherProject1", "otherProject2"], // Add your project names here
+      choices: ["portfolio", "landing", "otherProject2"], // Add your project names here
     },
     {
       type: "input",
