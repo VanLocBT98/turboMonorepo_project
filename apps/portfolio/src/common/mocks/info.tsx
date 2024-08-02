@@ -98,7 +98,7 @@ export const InfoMocks = {
       company: ["Sanbul Solutions"],
       position: ["Frontend Developer"],
       startDate: "06/03/2023",
-      endDate: "30/06/2024",
+      endDate: "Present",
       responsibilities: [
         "Create and assign tasks using Jira.",
         "Develop the source code structure following Atomic-Design principles.",
