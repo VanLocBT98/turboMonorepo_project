@@ -17,7 +17,10 @@
     "jsx": "preserve",
     "baseUrl": "./",
     "paths": {
-      "@/*": ["src/*"]
+      "@/*": ["src/*"],
+      "@stores/*": ["src/stores/*"],
+      "@configs/*": ["./src/configs/*"],
+      "@libs/*": ["./src/libs/*"]
     }
   },
   "include": [
