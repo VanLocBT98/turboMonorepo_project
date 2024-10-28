@@ -95,10 +95,40 @@ export const InfoMocks = {
   ],
   experiences: [
     {
+      company: ["Xsoft"],
+      position: ["Frontend Developer"],
+      startDate: "01/06/2024",
+      endDate: "Present",
+      responsibilities: [
+        "Create and assign tasks using Azure Devops.",
+        "Develop the source code structure following Atomic-Design principles.",
+        "Establish a process for code pushing and committing using Husky, Commit-lint, and GitHub Actions.",
+        "Implement the website interface based on design specifications, from management pages to user pages, utilizing Turbo (Vercel) for monorepos.",
+        "Refactored components for reusability, maintainability, and scalability, integrating APIs to enable seamless frontend-backend communication.",
+        "Configure Storybook for documenting components and write comprehensive README files.",
+        "Optimized website performance and SEO for improved user experience and search engine rankings.",
+        "Code Maintenance (Review, clean, and refactor code).",
+      ],
+      techStacks: [
+        {
+          title: "Programming languages:",
+          keys: "ReactJS 18, NextJS 14, HTML, SCSS, Javascript, Typescript.",
+        },
+        {
+          title: "UI libraries:",
+          keys: "Ant Design, MUI React, Syncfusion.",
+        },
+        {
+          title: "Other:",
+          keys: "firebase, Redux, Redux-toolkit, React-Query (Tanstack-query), Storybook V7, Styled-component, Socket.io, Service Workers, Docker, Nginx, Github Actions, Jest,....",
+        },
+      ],
+    },
+    {
       company: ["Sanbul Solutions"],
       position: ["Frontend Developer"],
       startDate: "06/03/2023",
-      endDate: "Present",
+      endDate: "31/05/2024",
       responsibilities: [
         "Create and assign tasks using Jira.",
         "Develop the source code structure following Atomic-Design principles.",
