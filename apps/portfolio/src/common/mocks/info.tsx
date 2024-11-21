@@ -97,7 +97,7 @@ export const InfoMocks = {
     {
       company: ["Xsoft"],
       position: ["Frontend Developer"],
-      startDate: "01/06/2024",
+      startDate: "05/2024",
       endDate: "Present",
       responsibilities: [
         "Create and assign tasks using Azure Devops.",
@@ -128,7 +128,7 @@ export const InfoMocks = {
       company: ["Sanbul Solutions"],
       position: ["Frontend Developer"],
       startDate: "06/03/2023",
-      endDate: "31/05/2024",
+      endDate: "05/2024",
       responsibilities: [
         "Create and assign tasks using Jira.",
         "Develop the source code structure following Atomic-Design principles.",
